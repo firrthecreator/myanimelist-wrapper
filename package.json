@@ -1,0 +1,55 @@
+{
+  "name": "myanimelist-wrapper",
+  "version": "1.0.0",
+  "description": "A comprehensive TypeScript wrapper for the Jikan API v4 (unofficial MyAnimeList API)",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist", "LICENSE", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "docs": "typedoc --out docs src/index.ts",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run clean && npm run lint && npm run test && npm run build"
+  },
+  "keywords": ["myanimelist", "anime", "manga", "jikan", "api", "wrapper", "typescript"],
+  "author": "Firr, The Creator.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firrthecreator/myanimelist-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/firrthecreator/myanimelist-wrapper/issues"
+  },
+  "homepage": "https://github.com/firrthecreator/myanimelist-wrapper#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "lint-staged": {
+    "*.ts": ["eslint --fix", "prettier --write"]
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitest/coverage-v8": "^0.34.6",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "typedoc": "^0.25.3",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  }
+}
