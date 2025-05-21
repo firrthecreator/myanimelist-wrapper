@@ -1,6 +1,6 @@
 {
   "name": "myanimelist-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A comprehensive TypeScript wrapper for the Jikan API v4 (unofficial MyAnimeList API)",
   "main": "dist/index.js",
   "module": "dist/index.js",

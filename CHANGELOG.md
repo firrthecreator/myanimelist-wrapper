@@ -2,7 +2,7 @@
 
 This is the first stable release of the project. Future versions will include new features, improvements, and bug fixes.
 
-## [v1.0.0] - 2025-05-22
+## [v1.0.1] - 2025-05-22
 
 ### Added
 - Initial stable release of `myanimelist-wrapper`
