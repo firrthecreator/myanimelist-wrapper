@@ -1,4 +1,4 @@
-# myanimelist-wrapper
+# MyAnimeList Wrapper
 
 [![npm version](https://img.shields.io/npm/v/@firrthecreator/myanimelist-wrapper.svg)](https://www.npmjs.com/package/myanimelist-wrapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,12 +8,12 @@ A comprehensive TypeScript wrapper for the Jikan API v4 (unofficial MyAnimeList 
 
 ## Features
 
-* Full TypeScript Support: Complete type definitions for all API responses
-* Complete API Coverage: All Jikan API v4 endpoints implemented
-* Modular Design: Clean, maintainable code structure
-* Error Handling: Robust error handling with custom error classes
-* Comprehensive Documentation: Detailed JSDoc comments and examples
-* Tested: Unit tests for reliability
+* **Full TypeScript Support**: Complete type definitions for all API responses
+* **Complete API Coverage**: All Jikan API v4 endpoints implemented
+* **Modular Design**: Clean, maintainable code structure
+* **Error Handling**: Robust error handling with custom error classes
+* **Comprehensive Documentation**: Detailed JSDoc comments and examples
+* **Tested**: Unit tests for reliability
 
 ## Installation
 
