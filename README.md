@@ -1,6 +1,6 @@
 # MyAnimeList Wrapper
 
-[![npm version](https://img.shields.io/npm/v/@firrthecreator/myanimelist-wrapper.svg)](https://www.npmjs.com/package/myanimelist-wrapper)
+[![npm version](https://img.shields.io/npm/v/myanimelist-wrapper.svg)](https://www.npmjs.com/package/myanimelist-wrapper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![CI](https://github.com/firrthecreator/myanimelist-wrapper/actions/workflows/ci.yml/badge.svg)](https://github.com/firrthecreator/myanimelist-wrapper/actions/workflows/ci.yml)
 
