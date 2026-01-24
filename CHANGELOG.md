@@ -1,8 +1,16 @@
 # Changelog
 
-This is the first stable release of the project. Future versions will include new features, improvements, and bug fixes.
+This project adheres to Semantic Versioning.
 
-## [v1.0.1] - 2025-05-22
+## - 2026-01-24
+
+### Updated
+- Updated documentation in `README.md` for better clarity on setup and usage.
+- Improved JSDoc comments across the codebase for better developer experience.
+- Updated `CONTRIBUTING.md` with clearer guidelines.
+- Fixed several typos in the documentation and examples.
+
+## - 2025-05-22
 
 ### Added
 - Initial stable release of `myanimelist-wrapper`
