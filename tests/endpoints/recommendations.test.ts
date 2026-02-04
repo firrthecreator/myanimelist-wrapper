@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest"
 import { RecommendationsEndpoint } from "../../src/endpoints/recommendations"
 import { JikanClient } from "../../src/client"
 
+/**
+ * Unit tests for the RecommendationsEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see RecommendationsEndpoint
+ */
 describe("RecommendationsEndpoint", () => {
   let client: JikanClient
   let recommendationsEndpoint: RecommendationsEndpoint
@@ -25,3 +32,5 @@ describe("RecommendationsEndpoint", () => {
     expect(client.request).toHaveBeenCalledWith("/recommendations/manga", { limit: 5 })
   })
 })
+
+

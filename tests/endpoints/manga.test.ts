@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { MangaEndpoint } from "../../src/endpoints/manga";
 import { JikanClient } from "../../src/client";
 
+/**
+ * Unit tests for the MangaEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see MangaEndpoint
+ */
 describe("MangaEndpoint", () => {
     let client: JikanClient;
     let mangaEndpoint: MangaEndpoint;
@@ -56,3 +63,5 @@ describe("MangaEndpoint", () => {
         expect(client.request).toHaveBeenCalledWith("/manga/1/recommendations");
     });
 });
+
+
