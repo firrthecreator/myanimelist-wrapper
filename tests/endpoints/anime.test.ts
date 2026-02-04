@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest";
 import { AnimeEndpoint } from "../../src/endpoints/anime";
 import { JikanClient } from "../../src/client";
 
+/**
+ * Unit tests for the AnimeEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see AnimeEndpoint
+ */
 describe("AnimeEndpoint", () => {
     let client: JikanClient;
     let animeEndpoint: AnimeEndpoint;
@@ -61,3 +68,5 @@ describe("AnimeEndpoint", () => {
         expect(client.request).toHaveBeenCalledWith("/anime/1/recommendations");
     });
 });
+
+

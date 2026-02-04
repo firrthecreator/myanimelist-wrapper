@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest"
 import { RandomEndpoint } from "../../src/endpoints/random"
 import { JikanClient } from "../../src/client"
 
+/**
+ * Unit tests for the RandomEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see RandomEndpoint
+ */
 describe("RandomEndpoint", () => {
   let client: JikanClient
   let randomEndpoint: RandomEndpoint
@@ -40,3 +47,5 @@ describe("RandomEndpoint", () => {
     expect(client.request).toHaveBeenCalledWith("/random/users")
   })
 })
+
+

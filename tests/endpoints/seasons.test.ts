@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest"
 import { SeasonsEndpoint } from "../../src/endpoints/seasons"
 import { JikanClient } from "../../src/client"
 
+/**
+ * Unit tests for the SeasonsEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see SeasonsEndpoint
+ */
 describe("SeasonsEndpoint", () => {
   let client: JikanClient
   let seasonsEndpoint: SeasonsEndpoint
@@ -41,3 +48,5 @@ describe("SeasonsEndpoint", () => {
     })
   })
 })
+
+

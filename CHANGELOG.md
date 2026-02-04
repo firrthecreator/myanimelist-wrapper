@@ -6,6 +6,7 @@ This project adheres to Semantic Versioning.
 
 ### Updated
 - Completed unit test coverage for core features.
+- Added expanded JSDoc blocks across endpoint unit tests for clearer intent.
 
 ## - 2026-01-24
 

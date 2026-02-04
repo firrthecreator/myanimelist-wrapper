@@ -2,6 +2,13 @@ import { describe, it, expect, vi, beforeEach } from "vitest"
 import { TopEndpoint } from "../../src/endpoints/top"
 import { JikanClient } from "../../src/client"
 
+/**
+ * Unit tests for the TopEndpoint request mapping and parameter handling.
+ *
+ * @description Verifies that endpoint methods call the client with the expected path
+ * and query parameters.
+ * @see TopEndpoint
+ */
 describe("TopEndpoint", () => {
   let client: JikanClient
   let topEndpoint: TopEndpoint
@@ -44,3 +51,5 @@ describe("TopEndpoint", () => {
     })
   })
 })
+
+
