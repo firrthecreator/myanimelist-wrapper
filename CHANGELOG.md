@@ -2,6 +2,11 @@
 
 This project adheres to Semantic Versioning.
 
+## - 2026-02-04
+
+### Updated
+- Completed unit test coverage for core features.
+
 ## - 2026-01-24
 
 ### Updated
